@@ -1,0 +1,39 @@
+#masthead {
+  display: flex;
+  flex-direction: row;
+  background-color: orange; }
+
+#masthead, #site-navigation {
+  display: flex;
+  align-items: center; }
+  #masthead .menu ul li, #site-navigation .menu ul li {
+    list-style: none; }
+
+#page-wrapper, #single-wrapper, #archive-wrapper {
+  padding: 60px 0;
+  position: relative;
+  width: 100%;
+  z-index: 2;
+  min-height: 60vh; }
+  #page-wrapper .entry-content > .kc_row, #single-wrapper .entry-content > .kc_row, #archive-wrapper .entry-content > .kc_row {
+    float: none; }
+  #page-wrapper .entry-content a, #single-wrapper .entry-content a, #archive-wrapper .entry-content a {
+    text-decoration: underline; }
+    #page-wrapper .entry-content a:hover, #single-wrapper .entry-content a:hover, #archive-wrapper .entry-content a:hover {
+      text-decoration: none; }
+  #page-wrapper .entry-content ul, #page-wrapper .entry-content ol, #page-wrapper .entry-content dl, #single-wrapper .entry-content ul, #single-wrapper .entry-content ol, #single-wrapper .entry-content dl, #archive-wrapper .entry-content ul, #archive-wrapper .entry-content ol, #archive-wrapper .entry-content dl {
+    padding-left: 20px; }
+    #page-wrapper .entry-content ul li, #page-wrapper .entry-content ol li, #page-wrapper .entry-content dl li, #single-wrapper .entry-content ul li, #single-wrapper .entry-content ol li, #single-wrapper .entry-content dl li, #archive-wrapper .entry-content ul li, #archive-wrapper .entry-content ol li, #archive-wrapper .entry-content dl li {
+      margin-bottom: 15px; }
+      #page-wrapper .entry-content ul li:last-child, #page-wrapper .entry-content ol li:last-child, #page-wrapper .entry-content dl li:last-child, #single-wrapper .entry-content ul li:last-child, #single-wrapper .entry-content ol li:last-child, #single-wrapper .entry-content dl li:last-child, #archive-wrapper .entry-content ul li:last-child, #archive-wrapper .entry-content ol li:last-child, #archive-wrapper .entry-content dl li:last-child {
+        margin-bottom: 0; }
+  #page-wrapper .entry-content .f-img-wrapper, #single-wrapper .entry-content .f-img-wrapper, #archive-wrapper .entry-content .f-img-wrapper {
+    height: 400px;
+    width: 100%; }
+    #page-wrapper .entry-content .f-img-wrapper img, #single-wrapper .entry-content .f-img-wrapper img, #archive-wrapper .entry-content .f-img-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 50% 50%; }
+
+/*# sourceMappingURL=style.css.map */

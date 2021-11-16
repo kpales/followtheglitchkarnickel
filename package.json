@@ -1,0 +1,31 @@
+{
+  "name": "BND_Microsite",
+  "version": "1.0.0",
+  "description": "This is a custom wordpress theme, developed specifically for BND microsite",
+  "author": "Aleš Petrovački",
+  "license": "GPL-2.0-or-later",
+  "keywords": [
+    "WordPress",
+    "Theme",
+    "Custom",
+    "Framework"
+  ],
+  "homepage": "https://github.com/Automattic/_s#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Automattic/_s.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Automattic/_s/issues"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^12.1.0",
+    "browser-sync": "^2.26.13",
+    "dir-archiver": "^1.1.1",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0"
+  }
+}
